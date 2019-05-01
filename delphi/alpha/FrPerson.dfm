@@ -22,27 +22,19 @@ object Form2: TForm2
   end
   object isValid: TCheckBox
     Left = 48
-    Top = 84
+    Top = 6
     Width = 97
     Height = 17
     Caption = 'isValid'
     TabOrder = 0
   end
-  object GroupBox1: TGroupBox
-    Left = 408
-    Top = 144
-    Width = 185
-    Height = 105
-    Caption = 'GroupBox1'
-    TabOrder = 1
-  end
   object Button1: TButton
-    Left = 48
-    Top = 136
+    Left = 249
+    Top = 27
     Width = 75
     Height = 25
-    Caption = 'Save'
-    TabOrder = 2
+    Caption = 'Add'
+    TabOrder = 1
     OnClick = Button1Click
   end
   object firstName: TEdit
@@ -50,6 +42,14 @@ object Form2: TForm2
     Top = 29
     Width = 121
     Height = 21
+    TabOrder = 2
+  end
+  object listNames: TListBox
+    Left = 48
+    Top = 56
+    Width = 276
+    Height = 97
+    ItemHeight = 13
     TabOrder = 3
   end
 end
