@@ -7,7 +7,9 @@ type
   middleNameType = String;
   lastNameType = String;
   ageType = Byte;
-  monthsType = (Jan,Feb,Mar,April);
+
+  //{$scopedenums on}
+  Tmonths = (Jan,Feb,Mar,April);
   //procedure printParamsProc(const A: Integer ; var B:Integer);
 
 const nConst : Integer = 900; 
@@ -20,7 +22,7 @@ var
   MiddleName : middleNameType;
   lastName : lastNameType;
   age : ageType;
-  months : monthsType;
+  months : Tmonths;
 
 
 {Params are semi-colon (;) separated and not comma(,) separated}
@@ -31,7 +33,9 @@ end;
 
 procedure printFullNameProc(firstName: String ; MiddleName:String; lastName:System.String);
 begin
+  
   writeln(firstName, ' ', MiddleName, ' ', lastName );
+  WriteLn('Birth month: ', months)
 end;
 
 
@@ -39,6 +43,11 @@ end;
 begin
     Y := 100;
     firstName := 'Joshua';
+
+    //fetches the 3rd item in enumerated type
+    months := Tmonths(2);
+
+    WriteLn(High(months));
     printParamsProc(N,Y);
     printFullNameProc(firstName,'Uzo','Nwankwo');
 
