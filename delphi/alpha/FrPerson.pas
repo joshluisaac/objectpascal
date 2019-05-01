@@ -12,9 +12,9 @@ type
   TForm2 = class(TForm)
     Label1: TLabel;
     isValid: TCheckBox;
-    GroupBox1: TGroupBox;
     Button1: TButton;
     firstName: TEdit;
+    listNames: TListBox;
     procedure Button1Click(Sender: TObject);
   private
     { Private declarations }
@@ -32,7 +32,10 @@ implementation
 procedure TForm2.Button1Click(Sender: TObject);
 begin
   isValid.Checked := true;
-  firstName.Text := 'Some text';
+  if firstName.Text = '' then
+    exit;
+
+  listNames.Items.Add(firstName.Text);
 end;
 
 end.
