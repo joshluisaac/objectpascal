@@ -68,6 +68,8 @@ begin
   //initialize the default values
   initSetValues;
 
+  WriteLn(TypeInfo(Tmonths));
+
   //print min month
   WriteLn('Min month: ',Low(birthMonth));
 
@@ -79,5 +81,5 @@ begin
   printPersonProfile(firstName,middleName,lastName,birthMonth,age);
   printPersonProfile('Sam','Oku','Nwankwo',Tmonths(12),20);
   printPersonProfile('Joshua','Uzo','Nwankwo',Tmonths(2),21);
-  
+
 end.
