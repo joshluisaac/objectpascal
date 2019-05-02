@@ -1,5 +1,6 @@
 program Basics;
 
+
 { syntax:
  type
  datatypeidentifier = typespecification;
@@ -67,8 +68,6 @@ end;
 begin
   //initialize the default values
   initSetValues;
-
-  WriteLn(TypeInfo(Tmonths));
 
   //print min month
   WriteLn('Min month: ',Low(birthMonth));
