@@ -59,26 +59,25 @@ begin
   middleName := 'defaultMiddleName';
   lastName := 'defaultLastName';
   age := 4;
-
-  //fetches the given item in enumerated type by value
   birthMonth := Tmonths(7);
 end;
 
 
 
 begin
+  //initialize the default values
   initSetValues;
 
-
-  WriteLn(birthMonth);
-
+  //print min month
   WriteLn('Min month: ',Low(birthMonth));
+
+  //print max month
   WriteLn('Max month: ',High(birthMonth));
+
   printParamsProc(N,Y);
   printPersonProfile();
   printPersonProfile(firstName,middleName,lastName,birthMonth,age);
   printPersonProfile('Sam','Oku','Nwankwo',Tmonths(12),20);
   printPersonProfile('Joshua','Uzo','Nwankwo',Tmonths(2),21);
-
-
+  
 end.
