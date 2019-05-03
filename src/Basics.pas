@@ -38,7 +38,7 @@ begin
 end;
 
 {prints a given person's profile based on the args passed to the function}
-procedure printPersonProfile(firstName: TfirstName ; MiddleName:TmiddleName; lastName:System.String; birthMonth:Tmonths; age:Tage);
+procedure printPersonProfile(firstName: TfirstName ; MiddleName:TmiddleName; lastName:System.String; birthMonth:Tmonths; age:Tage) overload;
 begin
   writeln(firstName, '|', MiddleName, '|', lastName, '|', birthMonth, '|', age );
 end;
@@ -47,7 +47,7 @@ end;
   Prints the default person's profile.
   The default person's profile is initialize using initSetValues.
 }
-procedure printPersonProfile();
+procedure printPersonProfile() overload;
 begin
   writeln(firstName, '|', MiddleName, '|', lastName, '|', birthMonth, '|', age );
 end;
