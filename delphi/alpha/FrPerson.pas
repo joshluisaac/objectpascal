@@ -31,11 +31,12 @@ implementation
 
 procedure TForm2.Button1Click(Sender: TObject);
 begin
-  isValid.Checked := true;
+  Form2.isValid.Checked := true;
   if firstName.Text = '' then
     exit;
 
   listNames.Items.Add(firstName.Text);
+  firstName.Text := '';
 end;
 
 end.
