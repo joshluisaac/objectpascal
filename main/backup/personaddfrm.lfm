@@ -1,0 +1,112 @@
+object Form1: TForm1
+  Left = 436
+  Height = 452
+  Top = 119
+  Width = 640
+  Caption = 'Form1'
+  ClientHeight = 452
+  ClientWidth = 640
+  LCLVersion = '2.0.2.0'
+  object Panel1: TPanel
+    Left = 24
+    Height = 91
+    Top = 72
+    Width = 256
+    Caption = 'Panel1'
+    ClientHeight = 91
+    ClientWidth = 256
+    TabOrder = 0
+    object Edit2: TEdit
+      Left = 56
+      Height = 22
+      Top = 16
+      Width = 50
+      TabOrder = 0
+      Text = 'Edit2'
+    end
+  end
+  object GroupBox1: TGroupBox
+    Left = 24
+    Height = 204
+    Top = 176
+    Width = 256
+    Caption = 'Basic Information'
+    ClientHeight = 182
+    ClientWidth = 248
+    TabOrder = 1
+    object firstName: TEdit
+      Left = 104
+      Height = 22
+      Top = 16
+      Width = 128
+      OnChange = firstNameChange
+      TabOrder = 0
+    end
+    object Label1: TLabel
+      Left = 8
+      Height = 16
+      Top = 16
+      Width = 68
+      Caption = 'First Name'
+      ParentColor = False
+    end
+    object middleName: TEdit
+      Left = 104
+      Height = 22
+      Top = 56
+      Width = 128
+      TabOrder = 1
+    end
+    object Label2: TLabel
+      Left = 8
+      Height = 16
+      Top = 56
+      Width = 83
+      Caption = 'Middle Name'
+      ParentColor = False
+    end
+    object Label3: TLabel
+      Left = 8
+      Height = 16
+      Top = 96
+      Width = 66
+      Caption = 'Last Name'
+      ParentColor = False
+    end
+    object lastName: TEdit
+      Left = 104
+      Height = 22
+      Top = 96
+      Width = 128
+      TabOrder = 2
+    end
+  end
+  object remarks: TMemo
+    Left = 288
+    Height = 308
+    Top = 72
+    Width = 320
+    Lines.Strings = (
+      'remarks'
+    )
+    ParentShowHint = False
+    TabOrder = 2
+  end
+  object saveBtn: TButton
+    Left = 464
+    Height = 26
+    Top = 400
+    Width = 66
+    Caption = 'Save'
+    OnClick = saveBtnClick
+    TabOrder = 3
+  end
+  object cancelBtn: TButton
+    Left = 542
+    Height = 26
+    Top = 400
+    Width = 66
+    Caption = 'Cancel'
+    TabOrder = 4
+  end
+end

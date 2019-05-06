@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <Version Value="11"/>
+    <BuildModes Active="Default"/>
+    <Units Count="3">
+      <Unit0>
+        <Filename Value="main.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <WindowIndex Value="-1"/>
+        <TopLine Value="-1"/>
+        <CursorPos X="-1" Y="-1"/>
+        <UsageCount Value="20"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="personaddfrm.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="Form1"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="PersonAddFrm"/>
+        <CursorPos X="14" Y="9"/>
+        <UsageCount Value="20"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit1>
+      <Unit2>
+        <Filename Value="personmodel.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="PersonModel"/>
+        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="1"/>
+        <TopLine Value="4"/>
+        <CursorPos X="44" Y="15"/>
+        <UsageCount Value="20"/>
+        <Loaded Value="True"/>
+      </Unit2>
+    </Units>
+    <JumpHistory Count="24" HistoryIndex="23">
+      <Position1>
+        <Filename Value="personaddfrm.pas"/>
+        <Caret Line="41" Column="3" TopLine="4"/>
+      </Position1>
+      <Position2>
+        <Filename Value="personaddfrm.pas"/>
+        <Caret Line="42" Column="3" TopLine="5"/>
+      </Position2>
+      <Position3>
+        <Filename Value="personaddfrm.pas"/>
+        <Caret Line="17" Column="69"/>
+      </Position3>
+      <Position4>
+        <Filename Value="personaddfrm.pas"/>
+        <Caret Line="57" Column="3" TopLine="20"/>
+      </Position4>
+      <Position5>
+        <Filename Value="personmodel.pas"/>
+        <Caret Line="14" Column="18"/>
+      </Position5>
+      <Position6>
+        <Filename Value="personmodel.pas"/>
+        <Caret Line="9" Column="59"/>
+      </Position6>
+      <Position7>
+        <Filename Value="personmodel.pas"/>
+        <Caret Line="13" Column="42"/>
+      </Position7>
+      <Position8>
+        <Filename Value="personmodel.pas"/>
+        <Caret Line="3" Column="3"/>
+      </Position8>
+      <Position9>
+        <Filename Value="personmodel.pas"/>
+        <Caret Line="11" Column="37"/>
+      </Position9>
+      <Position10>
+        <Filename Value="personaddfrm.pas"/>
+        <Caret Line="9" Column="14"/>
+      </Position10>
+      <Position11>
+        <Filename Value="personmodel.pas"/>
+        <Caret Line="3" Column="3"/>
+      </Position11>
+      <Position12>
+        <Filename Value="personmodel.pas"/>
+        <Caret Line="15" Column="23"/>
+      </Position12>
+      <Position13>
+        <Filename Value="personmodel.pas"/>
+        <Caret Line="22" Column="28"/>
+      </Position13>
+      <Position14>
+        <Filename Value="personmodel.pas"/>
+        <Caret Line="14" Column="45"/>
+      </Position14>
+      <Position15>
+        <Filename Value="personmodel.pas"/>
+        <Caret Line="29" Column="6"/>
+      </Position15>
+      <Position16>
+        <Filename Value="personmodel.pas"/>
+        <Caret Line="30" Column="31"/>
+      </Position16>
+      <Position17>
+        <Filename Value="personmodel.pas"/>
+        <Caret Line="22" Column="38"/>
+      </Position17>
+      <Position18>
+        <Filename Value="personmodel.pas"/>
+        <Caret Line="28" Column="50"/>
+      </Position18>
+      <Position19>
+        <Filename Value="personmodel.pas"/>
+        <Caret Line="29"/>
+      </Position19>
+      <Position20>
+        <Filename Value="personmodel.pas"/>
+        <Caret Line="17" Column="7"/>
+      </Position20>
+      <Position21>
+        <Filename Value="personmodel.pas"/>
+        <Caret Line="28" Column="49"/>
+      </Position21>
+      <Position22>
+        <Filename Value="personmodel.pas"/>
+        <Caret Line="30" Column="31"/>
+      </Position22>
+      <Position23>
+        <Filename Value="personmodel.pas"/>
+        <Caret Line="29" Column="10"/>
+      </Position23>
+      <Position24>
+        <Filename Value="personmodel.pas"/>
+        <Caret Line="18" Column="14"/>
+      </Position24>
+    </JumpHistory>
+    <RunParams>
+      <FormatVersion Value="2"/>
+      <Modes Count="0" ActiveMode=""/>
+    </RunParams>
+  </ProjectSession>
+  <Debugging>
+    <BreakPoints Count="3">
+      <Item1>
+        <Kind Value="bpkSource"/>
+        <WatchScope Value="wpsLocal"/>
+        <WatchKind Value="wpkWrite"/>
+        <Source Value="personmodel.pas"/>
+        <Line Value="22"/>
+      </Item1>
+      <Item2>
+        <Kind Value="bpkSource"/>
+        <WatchScope Value="wpsLocal"/>
+        <WatchKind Value="wpkWrite"/>
+        <Source Value="personmodel.pas"/>
+        <Line Value="23"/>
+      </Item2>
+      <Item3>
+        <Kind Value="bpkSource"/>
+        <WatchScope Value="wpsLocal"/>
+        <WatchKind Value="wpkWrite"/>
+        <Source Value="personmodel.pas"/>
+        <Line Value="24"/>
+      </Item3>
+    </BreakPoints>
+  </Debugging>
+</CONFIG>
