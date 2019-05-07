@@ -18,6 +18,7 @@ type
     function getFirstName() : String;
     function getMiddleName() : String;
     function getLastName() : String;
+    function format(): string;
 
     procedure setFirstName(firstName : String);
     procedure setMiddleName(middleName : String);
@@ -25,6 +26,17 @@ type
   end;
 
 implementation
+
+function Tperson.format(): string;
+var formattedMsg : string;
+begin
+  formattedMsg := '';
+  formattedMsg:= 'First Name :' + #9 + self.FfirstName + sLineBreak;
+  formattedMsg:= formattedMsg + 'Middle Name :' + #9 + self.FmiddleName + sLineBreak;
+  formattedMsg:= formattedMsg + 'Last Name :' + #9 + self.FlastName;
+  Result := formattedMsg;
+
+end;
 
 function Tperson.getFirstName(): String;
 begin
@@ -57,7 +69,7 @@ begin
   self.FlastName := lastName;
 end;
 
-constructor create(firstName : String; middleName : String; lastName : String); 
+constructor Tperson.create(firstName : String; middleName : String; lastName : String); 
 begin
   self.FfirstName := firstName;
   self.FmiddleName := middleName;
